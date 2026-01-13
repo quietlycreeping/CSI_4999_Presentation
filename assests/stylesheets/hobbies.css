@@ -6,31 +6,26 @@ body
 }
 
 
-hr.dashed {
-    border-top: 3px dashed white;
-  }
-
 #profile_con1 /* header */
 {
-  background-color: #440303;
+  background-color: #EDAE49;
+}
+
+h2
+{
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+  font-weight: bold;
+  color: #30362F;
+}
+
+hr.dashed 
+{
+    border-top: 3px dashed #30362F;
 }
 
 #profile_con2 /* button cards */
 {
-  background-color: #750710;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-}
-
-#profile_con3 /* backstory buttons */
-{
-  background-color: #440303;;
+  background-color: blue;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
