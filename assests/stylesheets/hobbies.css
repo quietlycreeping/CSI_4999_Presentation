@@ -8,56 +8,70 @@ body
 
 #profile_con1 /* header */
 {
-  background-color: #EDAE49;
+  background-color: #772D88;
 }
 
 h2
 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: #30362F;
+  color: white;
+  text-align: center;
 }
 
 hr.dashed 
 {
-    border-top: 3px dashed #30362F;
+    border-top: 3px dashed #EDAE49;
 }
 
 #profile_con2 /* button cards */
 {
-  background-color: blue;
+  background-color: #772D88;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: #30362F;
 }
 
 button.btn
 {
-  background-color: #750710;
-  color: white;
+  background-color: #EDAE49;
+  color: #30362F;
   margin: .5%;
-  border: 2px solid #750710;
+  border: 2px solid #E49B13;
 }
 
 button.btn:hover
 {
-  background-color: #FFB426;
-  border: 2px solid #945D2D;
-  color: white;
+  background-color: #CFB3CD;
+  border: 2px solid #997396;
+  color: #30362F;
 
 }
 
 button.btn:focus
 {
-  background-color: #FFB426;
-  border: 2px solid #945D2D;
+  background-color: #CFB3CD;
+  border: 2px solid #997396;
   color: white;
 }
 
 div.card.card-body
 {
-  background-color: #1A1A1A;
+  background-color: #CFB3CD;
+  a:link, a:visited
+  {
+      text-decoration: underline;
+      color: #30362F;
+  }
+
+}
+
+button.btn.btn-primary:hover
+{
+  background-color: #772D88;
+  border: 2px solid #CFB3CD;
+  color: white;
 }
 
 
