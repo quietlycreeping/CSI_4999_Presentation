@@ -31,6 +31,11 @@ hr.dashed
   font-weight: 400;
   font-style: normal;
   color: #30362F;
+    a:link, a:visited
+  {
+      text-decoration: underline;
+      color: #772D88;
+  }
 }
 
 
